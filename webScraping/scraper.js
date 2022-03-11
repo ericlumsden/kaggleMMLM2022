@@ -1,6 +1,9 @@
 const puppeteer = require('puppeteer');
 
 const year = 2006;
+// Will be collecting data from all NCAA tournaments from 1939 to 2019 (no tourney in 2020 due to COVID-19)
+const years = [...Array(2020-1939).keys()].map(x=>x+1939);
+console.log(years);
 
 async function scrapeProduct(year) {
     const browser = await puppeteer.launch();
