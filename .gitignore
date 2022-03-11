@@ -1,2 +1,3 @@
 data/**
-webscraping/node_modules/**
+webScraping/node_modules/**
+webScraping/node_modules/package-lock.json
